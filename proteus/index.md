@@ -32,7 +32,7 @@
 | Base-32  |    X    |         |         |         |         |         |         |
 | Base-64  |    X    |         |         |         |         |         |         |
 
-Those slots between radices where there is no optimization are instead run converted to ASCII first. This was a quick and dirty method used after each base-decoding was completed into ASCII. Eventually, every single conversion between radices will be completed so that the program is highly optimized no matter what is being encoded. 
+Those slots between radices where there is no optimization are instead converted to ASCII first. This was a quick-and-dirty method used after each base-decoding was completed into ASCII. Eventually, every single conversion between radices will be completed so that the program is highly optimized no matter what is being encoded. 
 
 As can be seen below, exapnsion can be made simply by creating the necessary function, no other modification is necessary: 
 
