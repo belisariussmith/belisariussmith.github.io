@@ -1,6 +1,5 @@
 # [](#header-1)Proteus
 
-
 ### [](#header-2)"the totally radixical tool"
 
 > A command-line program for detecting, decoding, and converting radix-encoded strings.
@@ -9,8 +8,7 @@
 
 ![](https://israelsmith.github.io/proteus/proteus-binary-to-ascii-example.png)
 
-
-##### [](#header-5)Supported radix (base-encodings)
+##### [](#header-3)Supported radix (base-encodings)
 
 1.  Binary
 2.  Octal
@@ -22,7 +20,7 @@
 
 \* _Not yet implemented_
 
-###### [](#header-6)Optimized Conversion
+###### [](#header-4)Optimized Conversion
 
 |          | ASCII   | Base-2  | Base-8  | Base-10 | Base-16 | Base-32 | Base-64 |
 |:---------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|
@@ -50,7 +48,11 @@ As can be seen below, exapnsion can be made simply by creating the necessary fun
     return globals()[encoding+"2"+decoding](string)
 ```
 
+## [](#header-5)Downloads
+### Latest (stable) Version
 
-
+- [proteus_1.0_all.deb](https://israelsmith.github.io/proteus/proteus_1.0_all.deb) (Debian Package)
+- [v1.0.zip](https://github.com/israelsmith/proteus/archive/v1.0.zip) (Source Code)
+- [v1.0.tar.gz](https://github.com/israelsmith/proteus/archive/v1.0.tar.gz) (Source Code)
 
 * * *
