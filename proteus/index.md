@@ -6,7 +6,9 @@
 > A command-line program for detecting, decoding, and converting radix-encoded strings.
 
 > This program is meant to be used with the most popular base-encodings such as base64, hexadecimal, binary, etc. Also the encodings are expected to be in their most commonly used implementation of each respective radix.
-    
+
+![](https://israelsmith.github.io/proteus/proteus-binary-to-ascii-example.png)
+
 
 ##### [](#header-5)Supported radix (base-encodings)
 
