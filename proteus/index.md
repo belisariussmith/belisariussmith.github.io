@@ -45,7 +45,7 @@ As can be seen below, exapnsion can be made simply by creating the necessary fun
 **Python Code**
 ```python
     # Quick validation
-    if (encoding is decoding): return string         # No reason convert anything
+    if (encoding is decoding): return string         # No reason to convert anything
     if ((encoding != ASCII) and (decoding != ASCII)):# Spool through ASCII conversion
       if (encoding+'2'+decoding in globals()):       # Conversion function exists
         return globals()[encoding+"2"+decoding](string)
