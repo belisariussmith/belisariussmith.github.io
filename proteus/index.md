@@ -24,13 +24,19 @@
 
 |          | ASCII   | Base-2  | Base-8  | Base-10 | Base-16 | Base-32 | Base-64 |
 |:---------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|
-| ASCII    |         |    X    |    X    |    X    |   X     |    X    |    X    |
-| Base-2   |    X    |         |         |         |         |         |         |
-| Base-8   |    X    |         |         |         |         |         |         |
-| Base-10  |    X    |         |         |         |         |         |         |
-| Base-16  |    X    |         |         |         |         |         |         |
-| Base-32  |    X    |         |         |         |         |         |         |
-| Base-64  |    X    |         |         |         |         |         |         |
+| ASCII    |    .    |    X    |    X    |    X    |   X     |    X    |    X    |
+| Base-2   |    X    |    .    |    U    |    U    |         |         |         |
+| Base-8   |    X    |         |    .    |         |         |         |         |
+| Base-10  |    X    |         |         |    .    |         |         |         |
+| Base-16  |    X    |         |         |         |   .     |         |         |
+| Base-32  |    X    |         |         |         |         |    .    |         |
+| Base-64  |    X    |         |         |         |         |         |    .    |
+
+X - Bi-directional optimization
+
+U - Uni-directional optimization (Row to Column)
+
+. - N/A (No conversion necessary)
 
 Those slots between radices where there is no optimization are instead converted to ASCII first. This was a quick-and-dirty method used after each base-decoding was completed into ASCII. Eventually, every single conversion between radices will be completed so that the program is highly optimized no matter what is being encoded. 
 
