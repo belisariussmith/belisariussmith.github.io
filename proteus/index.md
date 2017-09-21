@@ -57,6 +57,7 @@ As can be seen below, exapnsion can be made simply by creating the necessary fun
 ## [](#header-5)Downloads
 ### Latest Version
 
+- [proteus_1.1_all.deb](https://israelsmith.github.io/proteus/proteus_1.1_all.deb) (Debian Package)
 - [v1.1.zip](https://github.com/israelsmith/proteus/archive/v1.1.zip) (Source Code)
 - [v1.1.tar.gz](https://github.com/israelsmith/proteus/archive/v1.1.tar.gz) (Source Code)
 
