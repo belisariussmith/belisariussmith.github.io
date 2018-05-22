@@ -6,7 +6,7 @@
 
 > This program is meant to be used with the most popular base-encodings such as base64, hexadecimal, binary, etc. Also the encodings are expected to be in their most commonly used implementation of each respective radix.
 
-![](https://israelsmith.github.io/proteus/proteus-binary-to-ascii-example.png)
+![](https://belisariussmith.github.io/proteus/proteus-binary-to-ascii-example.png)
 
 ##### [](#header-3)Supported radix (base-encodings)
 
@@ -57,14 +57,14 @@ As can be seen below, exapnsion can be made simply by creating the necessary fun
 ## [](#header-5)Downloads
 ### Latest Version
 
-- [proteus_1.1_all.deb](https://israelsmith.github.io/proteus/proteus_1.1_all.deb) (Debian Package)
-- [v1.1.zip](https://github.com/israelsmith/proteus/archive/v1.1.zip) (Source Code)
-- [v1.1.tar.gz](https://github.com/israelsmith/proteus/archive/v1.1.tar.gz) (Source Code)
+- [proteus_1.1_all.deb](https://belisariussmith.github.io/proteus/proteus_1.1_all.deb) (Debian Package)
+- [v1.1.zip](https://github.com/belisariussmith/proteus/archive/v1.1.zip) (Source Code)
+- [v1.1.tar.gz](https://github.com/belisariussmith/proteus/archive/v1.1.tar.gz) (Source Code)
 
 ### Older releases
 
-- [proteus_1.0_all.deb](https://israelsmith.github.io/proteus/proteus_1.0_all.deb) (Debian Package)
-- [v1.0.zip](https://github.com/israelsmith/proteus/archive/v1.0.zip) (Source Code)
-- [v1.0.tar.gz](https://github.com/israelsmith/proteus/archive/v1.0.tar.gz) (Source Code)
+- [proteus_1.0_all.deb](https://belisariussmith.github.io/proteus/proteus_1.0_all.deb) (Debian Package)
+- [v1.0.zip](https://github.com/belisariussmith/proteus/archive/v1.0.zip) (Source Code)
+- [v1.0.tar.gz](https://github.com/belisariussmith/proteus/archive/v1.0.tar.gz) (Source Code)
 
 * * *
