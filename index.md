@@ -4,3 +4,6 @@
 
 ### [](#header-3) [proteus](proteus/)
 A command-line program for detecting, decoding, and converting radix-encoded strings.
+
+### [](#header-3) [tinymuse](https://github.com/belisariussmith/tinymuse)
+TinyMUSE the TinyMUSH derivative.
